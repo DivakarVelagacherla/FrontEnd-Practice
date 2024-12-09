@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Design a layout without using Flex Box or Grid"
+    />
+    <title>Design Layout</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .nav-bar {
+        background-color: aqua;
+        width: 100%;
+        height: 8vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+      }
+
+      /* Add padding-top to ensure space below the fixed navbar */
+      .main-container {
+        background-color: gray;
+        width: 90%;
+        height: 85vh;
+        margin: 100px auto;
+        padding-top: 10vh; /* Space for the fixed navbar */
+      }
+
+      .sub-container {
+        display: inline-block;
+        background-color: red;
+        margin: 10px;
+        margin-left: 30px; /* Reduced margin for better spacing */
+        width: 45%; /* Adjust width to fit side by side */
+        height: 60vh;
+      }
+
+      .bottom-section {
+        width: 75vw;
+        height: 50vh;
+        background-color: yellow;
+        margin: 20px auto;
+        border-radius: 10%;
+        padding: 20px;
+        box-sizing: border-box; /* Ensures padding is included in the width */
+      }
+
+      h1 {
+        text-align: center;
+        padding: 50px; /* Reduced padding */
+      }
+
+      .icon {
+        height: 100px;
+        width: 100px;
+        background-color: purple;
+        border-radius: 50%;
+        text-align: center;
+        position: fixed; /* Fix the icon at a specific position */
+        bottom: 0px; /* Position 20px from the bottom */
+        right: 0px; /* Position 20px from the right */
+        z-index: 1000; /* Ensure the icon stays above other content */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">Nav Bar</nav>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="sub-container"></div>
+        <div class="sub-container"></div>
+      </div>
+      <div class="bottom-section">
+        <h1>Welcome to FrontEnd Web Development Practice Sessions</h1>
+      </div>
+      <div class="icon">icon</div>
+    </main>
+  </body>
+</html>
