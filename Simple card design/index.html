@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Making a sample card template for practicing html css basics">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(172, 170, 170);
+        }
+
+        .card-container{
+            background-color: white;
+            width: 280px;
+            height: 400px;
+
+        }
+
+        img{
+            margin-left: 9px;
+            margin-top: 9px;
+            border-radius: 5px;
+        }
+
+        .card-captions{
+            display: inline-block;
+            border: 0.5px solid black;
+            margin-top: 0;
+            margin-left: 9px;
+            border-radius: 20px;
+            padding: 5px 10px;
+            font-size: 9px;
+        }
+
+        .card-title{
+            margin-top: 0;
+            margin-left: 9;
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        .card-content{
+            font-size: 12px;
+            font-weight: 400;
+            padding-top: 0;
+            margin: 0px 9px;
+            text-align: justify;
+        }
+
+        .button{
+            margin: 20px 90px;
+            padding: 10px 15px;
+            border-radius: 20px;
+            border: 0;
+            background-color: rgb(170, 252, 252);
+            color: rgb(82, 82, 226);
+        }
+
+
+
+    </style>
+    <title>Sample Card Making</title>
+</head>
+<body>
+    <div class="card-container">
+       <img src="images.jpeg" alt="Card Photo" class="card-photo">
+       <p class="card-captions">Nature</p>
+       <p class="card-captions">Lake</p>
+       <h1 class="card-title">Dal Lake</h1>
+       <h3 class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus id quia excepturi minus tempora aliquam nesciunt nemo libero maiores? Magnam debitis corrupti repudiandae.</h3>
+       <button class="button">Read More</button>
+    </div>
+</body>
+</html>
