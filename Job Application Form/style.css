@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #777;
+}
+.main-container {
+  width: 80vw;
+  background-color: white;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.form-elements{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 50px;
+}
+
+label{
+    font-size: 20px;
+}
+
+input, select, textarea{
+    padding: 10px 20px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+input#upload{
+    padding: 5px 0px;
+}
+
+input:focus{
+    outline-color: red;
+}
+
+.submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 40px 105px;
+}
+
+.submit button{
+    padding: 10px 20px;
+    outline: 0;
+    border: 0px solid;
+    border-radius: 4px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 2px 4px 6px rgba(1, 1, 1, 0.2);
+}
+
+.submit button:hover{
+    background-color: green;
+}
+
+.text-area{
+    grid-column: 1 / span 2;
+}
+
+.text-area textarea{
+    width: 90.5%;
+}
