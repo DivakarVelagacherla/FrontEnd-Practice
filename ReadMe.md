@@ -1,4 +1,4 @@
-# My Projects
+# Practiced Designs/Websites
 
 ## 1: [Simple Card Design](./Simple%20card%20design/)
 
