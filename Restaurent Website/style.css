@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ------nav bar------ */
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 70px;
+  padding-left: 75px;
+}
+
+.hamburger-icon {
+  height: 20px;
+  padding-right: 75px;
+}
+
+/* ------main container----- */
+
+.main-container {
+  height: 70vh;
+  margin: 0px 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-image img {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*----- main container content----- */
+
+.main-content {
+  margin-left: 50px;
+}
+
+.main-content-discount {
+  padding: 10px 30px;
+  font-size: 12px;
+  color: white;
+  font-weight: 400;
+  background-color: green;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.main-content h1 {
+  width: 80%;
+  font-size: 72px;
+  line-height: 1.2em;
+}
+
+.main-content-caption {
+  margin-top: 10px;
+  font-size: 14px;
+  width: 400px;
+  font-weight: 400;
+}
+
+.explore-now {
+  background-color: rgba(255, 166, 0, 0.8);
+  color: white;
+  font-size: 22px;
+  display: inline-block;
+  padding: 15px 30px;
+  margin-top: 30px;
+}
+
+.explore-now:hover {
+  background-color: orange;
+}
+
+/* ----- main footer ----- */
+
+.main-footer {
+  height: 17vh;
+  /* margin: 0px 150px; */
+  width: 60%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-footer-content > div {
+  margin-left: 10px;
+}
+
+.main-footer-content > img {
+  height: 75px;
+}
+
+.footer-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.footer-caption {
+  font-size: 12px;
+  width: 90%;
+}
+
+/* ------- Page 2 ------ */
+
+.page2 {
+  margin: 0px 60px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.page2 > h2 {
+  margin-top: 80px;
+  background-color: green;
+  padding: 7px 14px;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.page2 > h1 {
+  margin-top: 20px;
+}
+
+.page2-photo-grid {
+  background-color: gray;
+  height: 100%;
+  width: 100%;
+}
